@@ -14,7 +14,7 @@ app.use(bodyparser.json());
 
 const nexmo = new Nexmo({
     apiKey: '',
-    apiSecret: 'mOmw1luiJgjszrrM',
+    apiSecret: '',
   });
 
 app.post("/person",(req, res) => {
