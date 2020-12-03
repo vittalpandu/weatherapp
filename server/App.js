@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyparser.json());
 
 const nexmo = new Nexmo({
-    apiKey: '7e4e0f33',
+    apiKey: '',
     apiSecret: 'mOmw1luiJgjszrrM',
   });
 
